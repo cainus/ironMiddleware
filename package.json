@@ -1,0 +1,34 @@
+{
+  "name": "ironMiddleware",
+  "version": "0.0.0",
+  "description": "trycatch middleware wrapper so middleware can't kill your server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "should": "~2.1.1",
+    "trycatch": "~1.0.6"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cainus/ironMiddleware.git"
+  },
+  "keywords": [
+    "middleware",
+    "trycatch",
+    "domains"
+  ],
+  "author": "Gregg Caines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cainus/ironMiddleware/issues"
+  },
+  "homepage": "https://github.com/cainus/ironMiddleware"
+}
